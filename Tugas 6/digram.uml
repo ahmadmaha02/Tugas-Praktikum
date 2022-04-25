@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/matkul/semester 2/pemrograman lanjutan/uml/src</OriginalElement>
+  <nodes>
+    <node x="685.2400267470978" y="251.0">Pekerja</node>
+    <node x="10.5" y="494.0">MahasiswaFILKOM</node>
+    <node x="343.60326086956525" y="0.0">Manusia</node>
+    <node x="448.5" y="527.0">Manager</node>
+    <node x="-135.8464223385689" y="149.35951134380457">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Manager" target="Pekerja" relationship="GENERALIZATION">
+      <point x="-92.5" y="-39.5" />
+      <point x="541.0" y="467.0" />
+      <point x="969.4066934137645" y="467.0" />
+      <point x="113.66666666666669" y="94.5" />
+    </edge>
+    <edge source="Pekerja" target="Manusia" relationship="GENERALIZATION">
+      <point x="0.0" y="-94.5" />
+      <point x="855.7400267470978" y="230.0" />
+      <point x="335.10326086956525" y="230.0" />
+      <point x="335.10326086956525" y="210.0" />
+      <point x="445.22826086956525" y="210.0" />
+      <point x="-33.875" y="94.5" />
+    </edge>
+    <edge source="MahasiswaFILKOM" target="Manusia" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="213.5" y="230.0" />
+      <point x="335.10326086956525" y="230.0" />
+      <point x="335.10326086956525" y="210.0" />
+      <point x="445.22826086956525" y="210.0" />
+      <point x="-33.875" y="94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6616628175519631" showDependencies="false" x="414.5" y="422.99999999999994" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
