@@ -46,7 +46,7 @@ public class Manusia {
 
     public double getTunjangan() {
         double tunjangan;
-        if (this.getJenisKelamin() == true) {
+        if (this.getMenikah() == true) {
             if (this.getJenisKelamin() == true) {
                 tunjangan = 25;
             } else {
