@@ -33,7 +33,7 @@ public class Main {
         pekerja = new Pekerja[3];
         System.out.println(" Class Pekerja ");
         System.out.println("=================================================");
-        pekerja[0] = new Pekerja(8, 29, "200127529647", "edi santoso", "2933242352524", true, true);
+        pekerja[0] = new Pekerja(7, 22, "195102439283", "edi santoso", "2933242352524", true, true);
         pekerja[1] = new Pekerja(9, 28, "200325829957", "sri mulyanti", "243245245224", false, true);
         pekerja[2] = new Pekerja(7, 30, "2002257291648", "cus yaqult", "203245244642", true, false);
         System.out.println(pekerja[0].toString());

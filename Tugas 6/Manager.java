@@ -23,8 +23,8 @@ public class Manager extends Pekerja {
         System.out.println("NIP : " + this.getNIP());
         System.out.println("Jenis Kelamin : " + (this.getJenisKelamin() ? "Laki-laki" : "Perempuan"));
         System.out.println("Pendapatan : " + "$"
-                + (this.getGaji() + (this.getBonus() + (this.getBonus() * 35 / 100)) + (this.getTunjangan() + 15)));
-        System.out.println("Bonus : " + "$" + (this.getBonus() + (this.getBonus() * 35 / 100)));
+                + (this.getGaji() + (this.getBonus() + (this.getBonus() * 30 / 100)) + (this.getTunjangan() + 15)));
+        System.out.println("Bonus : " + "$" + (this.getBonus() + (this.getBonus() * 30 / 100)));
         System.out.println("Gaji : " + "$" + this.getGaji());
         System.out.println("Status : " + this.getStatus());
         System.out.println("Lama Kerja : " + this.getLamaKerja() + " hari");

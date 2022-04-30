@@ -14,7 +14,7 @@ public class Pekerja extends Manusia {
     }
 
     public double getGaji() {
-        gaji = this.hariKerja * this.jamKerja * 10;
+        gaji = this.hariKerja * this.jamKerja * 15;
         return gaji;
     }
 
@@ -25,7 +25,7 @@ public class Pekerja extends Manusia {
     public double getBonus() {
         double bonusLembur;
         double bonusLibur;
-        bonusLembur = ((hariKerja / 7) * 5 + (hariKerja % 7)) * (jamKerja - 7) * 5;
+        bonusLembur = ((hariKerja / 7) * 5 + (hariKerja % 7)) * (jamKerja - 7) * 7;
         bonusLibur = (hariKerja / 7) * 2 * jamKerja * 20;
 
         if (jamKerja <= 7) {
