@@ -45,7 +45,7 @@ public class Main {
         System.out.println(" Class Manager ");
         System.out.println("=================================================");
         manager[0] = new Manager(1000, 6, 30, "200225229106", "anya chan", "2001647443", false, true);
-        manager[1] = new Manager(1500, 7, 24, "200225729106", "gon kun", "1987456362362", true, true);
+        manager[1] = new Manager(1500, 9, 20, "204837283728", "gon kun", "1351707384392", false, false);
         manager[2] = new Manager(1450, 8, 20, "200225129106", "gojo sama", "193475135113", true, false);
         System.out.println(manager[0].toString());
         System.out.println(manager[1].toString());
